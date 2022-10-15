@@ -28,7 +28,7 @@ SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-18-191-183-35.us-east-2.compute.amazonaws.com']
+ALLOWED_HOSTS = ['http://3.139.6.237:8000','ec2-18-191-183-35.us-east-2.compute.amazonaws.com']
 
 
 # Application definition
